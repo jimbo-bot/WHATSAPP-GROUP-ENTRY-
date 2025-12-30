@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>USED PHONES KENYA WHATSAPP GROUP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #ffc0cb; /* Pink background */
+        }
+
+        .container {
+            background: #ffffff;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            background-color: #8B0000;
+            padding: 20px;
+            border-radius: 8px 8px 0 0;
+            margin: -20px -20px 20px -20px;
+        }
+
+        h2 {
+            margin-top: 25px;
+            color: #128C7E;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        .bold-italic {
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .note {
+            margin-top: 10px;
+            padding: 10px;
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+        }
+
+        .form-box {
+            background: #f1f1f1;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+
+        /* Dark green checkbox input fields */
+        .form-box input[type="checkbox"] {
+            background-color: #006400; /* Dark Green */
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            accent-color: white;
+            border-radius: 4px;
+        }
+
+        .form-box label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin: 8px 0;
+            cursor: pointer;
+            color: #000;
+            font-weight: bold;
+        }
+
+        button {
+            padding: 10px 25px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 50px; /* Oval shape */
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .copy-btn {
+            background: #128C7E;
+            color: white;
+            min-width: 250px;
+        }
+
+        .copy-btn:hover {
+            background: #0e7364;
+        }
+
+        .mpesa-btn {
+            background: #00a651;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            min-width: 250px;
+        }
+
+        .mpesa-btn:hover {
+            background: #007f3d;
+        }
+
+        .exit-btn {
+            background: red;
+            color: white;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        img {
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>USED PHONES KENYA WHATSAPP GROUP</h1>
+
+    <h2>1. Benefits to members.</h2>
+    <ul>
+        <li class="bold-italic">Links sellers and buyers fast and cheap cost.</li>
+        <li class="bold-italic">Join 100,000 members to sell, buy and trade in.</li>
+        <li class="bold-italic">Sell only electronics.</li>
+    </ul>
+
+    <h2>2. Requirements to join.</h2>
+    <ul>
+        <li class="bold-italic">18+ years.</li>
+        <li class="bold-italic">50 shillings entry fee.</li>
+        <li class="bold-italic">Sell only electronics.</li>
+        <li class="bold-italic">Have phones/electronics to sell.</li>
+    </ul>
+
+    <div class="note bold-italic">
+        NOTE:<br>
+        YOU ARE RESPONSIBLE FOR ANY DEALS YOU ENGAGE IN.<br>
+        REPORT SCAMMERS TO ADMIN.
+    </div>
+
+    <h2>3. <span class="bold">Join the group.</span></h2>
+
+    <div class="form-box">
+        <p class="bold">Enter now?</p>
+        <label><input type="checkbox" id="enterYes"> Yes</label>
+        <label><input type="checkbox" id="enterNo"> No</label>
+
+        <div id="paymentBox" class="hidden">
+            <p class="bold">Pay 2026 year entrance fee of 50 shillings?</p>
+            <label><input type="checkbox" id="payYes"> Yes</label>
+            <label><input type="checkbox" id="payNo"> No</label>
+
+            <div id="mpesaBox" class="hidden button-container">
+                <button class="copy-btn" onclick="copySendMoneyNumber()">
+                    COPY MPESA SEND MONEY NUMBER
+                </button>
+
+                <button class="mpesa-btn" onclick="showPaymentSteps()">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/M-PESA_LOGO-01.svg">
+                    PAY THROUGH SEND MONEY
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <h2>4. Conclusion</h2>
+    <p>Welcome to the group.</p>
+
+    <button class="exit-btn" onclick="exitMessage()">EXIT</button>
+
+</div>
+
+<script>
+    const enterYes = document.getElementById("enterYes");
+    const enterNo = document.getElementById("enterNo");
+    const payYes = document.getElementById("payYes");
+    const payNo = document.getElementById("payNo");
+
+    const paymentBox = document.getElementById("paymentBox");
+    const mpesaBox = document.getElementById("mpesaBox");
+
+    enterYes.onchange = () => {
+        if (enterYes.checked) {
+            enterNo.checked = false;
+            paymentBox.classList.remove("hidden");
+        }
+    };
+
+    enterNo.onchange = () => {
+        if (enterNo.checked) {
+            alert("WELCOME AGAIN");
+        }
+    };
+
+    payYes.onchange = () => {
+        if (payYes.checked) {
+            payNo.checked = false;
+            mpesaBox.classList.remove("hidden");
+        }
+    };
+
+    payNo.onchange = () => {
+        if (payNo.checked) {
+            alert("WELCOME AGAIN");
+        }
+    };
+
+    function copySendMoneyNumber() {
+        navigator.clipboard.writeText("0792348004");
+        alert("SEND MONEY NUMBER copied: 0792348004");
+    }
+
+    function showPaymentSteps() {
+        alert(
+            "HOW TO PAY\n\n" +
+            "Follow these steps:\n\n" +
+            "1. Dial *334# on your phone\n" +
+            "2. Select SEND MONEY\n" +
+            "3. Paste PHONE NUMBER: 0792348004\n" +
+            "4. Enter AMOUNT: 50\n" +
+            "5. Enter your M-Pesa PIN\n\n" +
+            "ONCE YOU HAVE PAID, WAIT ABOUT 10 MINUTES AND YOU WILL BE ADDED AUTOMATICALLY TO THE GROUP.\n" +
+            "Payment is for 2026 Entrance Fee."
+        );
+    }
+
+    function exitMessage() {
+        alert("Thank you! You can now close this tab.");
+    }
+</script>
+
+</body>
+</html>
